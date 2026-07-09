@@ -1,0 +1,25 @@
+graph TD
+
+Objective["Understand the Domain"]
+
+Objective --> D001["D-001<br/>POS organizes transformations"]
+
+Objective --> D002["D-002<br/>Transformation Engines"]
+
+Objective --> D003["D-003<br/>Clients generate Operations"]
+
+Objective --> D004["D-004<br/>Learning → Capabilities"]
+
+Objective --> D005["D-005<br/>Workspace is Context"]
+
+Objective --> D006["D-006<br/>Minimize Cognitive Load"]
+
+D005 --> ADR001["ADR-001<br/>Workspace is not the center"]
+
+D001 --> DomainModel["Domain Model"]
+
+D002 --> Architecture["System Architecture"]
+
+D004 --> KnowledgeEngine["Knowledge Engine"]
+
+D006 --> DesignPrinciples["Design Principles"]
