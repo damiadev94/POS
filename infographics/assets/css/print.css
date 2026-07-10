@@ -1,0 +1,71 @@
+@page {
+  margin: 20mm;
+  size: auto;
+}
+
+@media print {
+  body {
+    background: #ffffff;
+    color: #111827;
+  }
+
+  .app-shell, .hero__actions, .button, .footer {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .hero,
+  .section--highlight,
+  .module-card,
+  .poster-card,
+  .card,
+  .info-card,
+  .diagram-block,
+  .callout,
+  .legend,
+  .architecture-box,
+  .relationship-box {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .hero {
+    padding: 1rem 0;
+  }
+
+  .section {
+    padding: 0.5rem 0;
+  }
+
+  .button,
+  .hero__actions,
+  .footer {
+    display: none !important;
+  }
+
+  .section-header {
+    margin-bottom: 1rem;
+  }
+
+  .poster-grid,
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr !important;
+  }
+
+  .card,
+  .poster-card,
+  .module-card,
+  .diagram-block,
+  .info-card {
+    border: 1px solid #cbd5e1 !important;
+    box-shadow: none !important;
+  }
+
+  img,
+  svg {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}

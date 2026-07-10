@@ -1,0 +1,15 @@
+stateDiagram-v2
+
+[*] --> Planned
+
+Planned --> InProgress
+
+InProgress --> OnHold
+
+OnHold --> InProgress
+
+InProgress --> Completed
+
+Completed --> Archived
+
+Archived --> [*]

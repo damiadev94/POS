@@ -1,0 +1,28 @@
+graph TD
+
+Context
+
+Context --> Workspace
+
+Context --> Asset
+
+Workspace --> Inbox
+Workspace --> Idea
+Workspace --> Operation
+Workspace --> Project
+
+Operation --> Task
+Operation --> Deliverable
+
+Project --> Task
+Project --> Deliverable
+
+Operation -.Uses.-> Knowledge
+Operation -.Uses.-> Resource
+Operation -.Uses.-> Tool
+Operation -.Uses.-> Discipline
+
+Project -.Uses.-> Knowledge
+Project -.Uses.-> Resource
+Project -.Uses.-> Tool
+Project -.Uses.-> Discipline

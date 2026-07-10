@@ -1,0 +1,28 @@
+@media print {
+  .poster-shell {
+    padding: 1rem;
+  }
+
+  .hero,
+  .footer,
+  .button,
+  .hero__actions {
+    display: none !important;
+  }
+
+  .container,
+  .section,
+  .card,
+  .info-card,
+  .diagram-block,
+  .timeline,
+  .legend {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  body {
+    color: #121212;
+    background: #ffffff;
+  }
+}

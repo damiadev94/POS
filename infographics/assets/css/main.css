@@ -1,0 +1,66 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-background);
+}
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.hero {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.hero__content {
+  max-width: 46rem;
+}
+
+.hero__actions a {
+  min-width: 180px;
+}
+
+.poster-grid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.poster-card {
+  transition: transform var(--duration-short) var(--easing-standard), box-shadow var(--duration-short) var(--easing-standard);
+}
+
+.poster-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.poster-card__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.poster-card__description {
+  color: var(--color-muted);
+}
+
+.placeholder-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.module-card {
+  min-height: 200px;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: var(--space-3xl) var(--space-md);
+  }
+}

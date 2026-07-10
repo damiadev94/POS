@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infographics System | Architecture Poster Toolkit</title>
+  <meta name="description" content="A reusable HTML/CSS/JS framework for architecture posters and technical documentation infographics." />
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/typography.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/utilities.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/print.css" media="print" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero hero--dashboard">
+      <div class="hero__content">
+        <p class="eyebrow">Infographics System</p>
+        <h1>Architecture Poster Toolkit</h1>
+        <p class="hero__description">A lightweight, web-native system for building reusable architecture posters, knowledge maps, and technical infographics without frameworks.</p>
+      </div>
+      <nav class="hero__actions" aria-label="Dashboard navigation">
+        <a class="button button--primary" href="#posters">Browse posters</a>
+        <a class="button button--secondary" href="#workflow">Getting started</a>
+      </nav>
+    </header>
+
+    <main class="container" id="mainContent">
+      <section class="section" id="posters">
+        <div class="section-header">
+          <span class="section-label">Poster catalog</span>
+          <h2>Reusable poster modules</h2>
+          <p>Every poster is registered through a single configuration object. Use the dashboard to explore available templates and add new projects quickly.</p>
+        </div>
+
+        <div id="posterGrid" class="grid-3 poster-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section section--highlight" id="workflow">
+        <div class="grid-2 gap-xl">
+          <article class="card">
+            <h3>How it works</h3>
+            <p>The system is built with plain HTML, CSS and JavaScript. Templates define a clean poster skeleton, while the design system centralizes colors, spacing and components so every infographic remains consistent.</p>
+          </article>
+
+          <article class="card card--callout">
+            <h3>Ready for expansion</h3>
+            <p>Every poster folder is a self-contained unit. Add new posters by copying the template folder, registering the metadata in <code>assets/js/main.js</code>, and filling the placeholder sections.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="future">
+        <div class="section-header">
+          <span class="section-label">Future content</span>
+          <h2>Extend with new infographics</h2>
+          <p>Use the module structure to create architecture dashboards, domain maps, governance diagrams and roadmap posters. The framework is intentionally generic to support high-level technical storytelling.</p>
+        </div>
+
+        <div class="grid-4 gap-xl placeholder-grid">
+          <div class="module-card">
+            <span class="module-card__tag">System</span>
+            <h4>Foundation</h4>
+            <p>Poster structure for core concepts and platform foundations.</p>
+          </div>
+          <div class="module-card">
+            <span class="module-card__tag">Strategy</span>
+            <h4>Domain discovery</h4>
+            <p>Organize business capabilities, ubiquitous language and service boundaries at a glance.</p>
+          </div>
+          <div class="module-card">
+            <span class="module-card__tag">Flow</span>
+            <h4>Information flow</h4>
+            <p>Map system interactions with diagrams and data paths.</p>
+          </div>
+          <div class="module-card">
+            <span class="module-card__tag">Roadmap</span>
+            <h4>Governance & roadmap</h4>
+            <p>Build decision frameworks, timeline views, and release plans for documentation-ready print output.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Infographics module designed for scalable architecture documentation.</p>
+      <small>Built with standard web technologies for offline-ready editorial workflows.</small>
+    </footer>
+  </div>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

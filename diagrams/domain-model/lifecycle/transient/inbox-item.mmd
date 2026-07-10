@@ -1,0 +1,20 @@
+stateDiagram-v2
+
+[*] --> Captured
+
+Captured --> Processed
+
+Processed --> Idea
+Processed --> Task
+Processed --> Resource
+Processed --> Project
+Processed --> Operation
+
+Processed --> Discarded
+
+Idea --> [*]
+Task --> [*]
+Resource --> [*]
+Project --> [*]
+Operation --> [*]
+Discarded --> [*]

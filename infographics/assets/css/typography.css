@@ -1,0 +1,78 @@
+:root {
+  font-family: var(--font-family-base);
+  color: var(--color-text);
+}
+
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: var(--line-height-heading);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 2.2vw, 2.5rem);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+p, li, dt, dd {
+  font-size: var(--font-size-base);
+  margin: 0;
+}
+
+.eyebrow,
+.caption,
+.label {
+  display: inline-flex;
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+}
+
+.hero__description,
+.card p,
+.module-card p {
+  color: var(--color-muted);
+}
+
+.quote {
+  font-size: 1.125rem;
+  font-style: italic;
+  color: var(--color-text);
+  border-left: 4px solid var(--color-primary);
+  padding-left: var(--space-md);
+}
+
+.diagram-title {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+}
+
+small,
+.caption {
+  font-size: var(--font-size-sm);
+  color: var(--color-muted);
+}

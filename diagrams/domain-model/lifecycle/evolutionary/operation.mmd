@@ -1,0 +1,15 @@
+stateDiagram-v2
+
+[*] --> Planned
+
+Planned --> Active
+
+Active --> Review
+
+Review --> Improved
+
+Improved --> Active
+
+Active --> Archived
+
+Archived --> [*]

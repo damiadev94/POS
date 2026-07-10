@@ -1,0 +1,37 @@
+Structure
+│
+├── INV-001
+├── INV-002
+├── INV-003
+├── INV-004
+└── INV-005
+
+Capture
+│
+├── INV-006
+├── INV-007
+└── INV-008
+
+Knowledge
+│
+├── INV-009
+├── INV-010
+└── INV-011
+
+Work
+│
+├── INV-012
+├── INV-013
+└── INV-014
+
+Transformation
+│
+├── INV-015
+├── INV-016
+└── INV-017
+
+Governance
+│
+├── INV-018
+├── INV-019
+└── INV-020

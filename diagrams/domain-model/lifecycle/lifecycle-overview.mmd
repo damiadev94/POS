@@ -1,0 +1,16 @@
+flowchart LR
+
+subgraph Finite
+Idea --> Project --> Deliverable --> Archived
+end
+
+subgraph Evolutionary
+Operation --> Improve1[Improve]
+Improve1 --> Operation
+
+Knowledge --> Improve2[Improve]
+Improve2 --> Knowledge
+
+Asset --> Improve3[Improve]
+Improve3 --> Asset
+end

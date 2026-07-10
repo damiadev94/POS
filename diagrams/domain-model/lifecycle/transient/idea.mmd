@@ -1,0 +1,20 @@
+stateDiagram-v2
+
+[*] --> Captured
+
+Captured --> Processed
+
+Processed --> Planned
+
+Planned --> Project
+Planned --> Operation
+Planned --> Task
+Planned --> Knowledge
+
+Planned --> Discarded
+
+Project --> [*]
+Operation --> [*]
+Task --> [*]
+Knowledge --> [*]
+Discarded --> [*]

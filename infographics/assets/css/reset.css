@@ -1,0 +1,46 @@
+/* Reset | Normalize browser defaults for a predictable baseline */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+}
+button, input, optgroup, select, textarea {
+  font: inherit;
+}
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+button, [type="button"], [type="reset"], [type="submit"] {
+  cursor: pointer;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul[role="list"], ol[role="list"], ul, ol {
+  list-style: none;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+img {
+  border-style: none;
+}

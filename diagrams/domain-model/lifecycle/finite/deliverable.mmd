@@ -1,0 +1,15 @@
+stateDiagram-v2
+
+[*] --> InProgress
+
+InProgress --> Completed
+
+Completed --> Delivered
+
+Delivered --> Archived
+
+Delivered --> Asset
+
+Archived --> [*]
+
+Asset --> [*]

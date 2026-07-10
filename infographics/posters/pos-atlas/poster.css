@@ -1,0 +1,24 @@
+body {
+  background-color: var(--color-background);
+}
+
+.poster-shell {
+  padding-top: var(--space-lg);
+  padding-bottom: var(--space-4xl);
+}
+
+.hero {
+  background: linear-gradient(135deg, rgba(15, 118, 110, 0.16), rgba(37, 99, 235, 0.1));
+}
+
+.poster-shell .card {
+  min-height: 180px;
+}
+
+.poster-shell .card h2 {
+  margin-bottom: var(--space-sm);
+}
+
+.poster-shell .footer {
+  margin-top: var(--space-4xl);
+}

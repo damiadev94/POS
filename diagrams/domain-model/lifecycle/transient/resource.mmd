@@ -1,0 +1,15 @@
+stateDiagram-v2
+
+[*] --> Captured
+
+Captured --> Processed
+
+Processed --> Used
+
+Used --> Knowledge
+
+Used --> Archived
+
+Knowledge --> [*]
+
+Archived --> [*]
