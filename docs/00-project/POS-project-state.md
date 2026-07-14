@@ -20,6 +20,7 @@
 
 # Estado General
 
+| Architecture |
 | Área | Estado |
 | --- | --- |
 | Visión | ✅ |
@@ -34,6 +35,17 @@
 | ADRs | ⏳ Pendiente |
 | Glossary | ⏳ Pendiente |
 | Future Ideas | ⏳ Pendiente |
+
+
+Reference Implementation
+
+Filesystem v1             🚧
+
+Validation
+
+Pilot                     ⏳
+Operational Validation    ⏳
+Architecture Revision     ⏳
 
 # Objetivo del Proyecto
 
